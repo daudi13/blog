@@ -19,7 +19,7 @@ const Navbar = () => {
         ))}
       </div>
       <div className='flex-1 text-center text-[36px] font-bold max-md:text-left'>B-Blogs</div>
-      <div className='flex-1 flex gap-[10px] items-center justify-end'>
+      <div className='flex-1 flex gap-[10px] items-center justify-end z-auto'>
         <DarkModeToggle/>
         {[
           ["homepage", "/homepage"],

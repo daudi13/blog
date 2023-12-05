@@ -15,9 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='min-h-screen bg-bckg text-text-color'>
+        <div className='relative min-h-screen bg-bckg text-text-color'>
           <ThemeProvider>
-            <div className="min-h-screen max-w-[1536px] max-xs:max-w-[300px] max-sm:max-w-[440px] max-md:max-w-[700px] ml-auto mr-auto pl-[80px] max-sm:pl-[10px] max-md:pl-[40px] pr-[80px] max-sm:pr-[10px] max-md:pr-[40px]">
+            <div className="relative min-h-screen max-w-[1536px] max-xs:max-w-[300px] max-sm:max-w-[440px] max-md:max-w-[700px] ml-auto mr-auto pl-[80px] max-sm:pl-[10px] max-md:pl-[40px] pr-[80px] max-sm:pr-[10px] max-md:pr-[40px]">
               <Navbar/>
                 {children}
               <Footer/>
